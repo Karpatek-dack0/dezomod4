@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "dezoclientmod",
+  "version": "${version}",
+  "name": "Dezo Client Mod",
+  "description": "Client-side branding mod: Dezo Client.",
+  "authors": ["Dezo"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["dezoclientmod.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
